@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@100;400&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+/* body{
+    background-color: rgb(207, 207, 207);
+} */
+.navbar {
+    position: relative;
+    background-color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img {
+    position: relative;
+    display: flex;
+    max-width: 8%;
+    margin: 1;
+    justify-content: center;
+    align-items: center;
+    left: 48%;
+    right: 50%;
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+    height: 10%;
+    margin-top: 1%;
+}
+.navbar ul li a{
+    font-size: 100%;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
